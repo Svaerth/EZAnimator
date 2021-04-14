@@ -42,5 +42,6 @@ You can customize how the animation plays by populating the following optional p
 4. reversed - whether or not the animation should play in reverse
 5. startingFrame - the frame of animation that the animation begin playing on
 6. endingFrame - the frame that the animation should stop playing on
+
 *NOTE: you must populate either durationMilliseconds or framesPerSecond but not both*
 
