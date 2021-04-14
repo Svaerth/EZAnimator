@@ -1,6 +1,6 @@
 {
     "name": "com.svaerth.ezanimator",
-    "version": "1.0",
+    "version": "1.0.0",
     "displayName": "EZAnimator",
     "description": "A library to easily play sprite animations",
    "keywords": [
