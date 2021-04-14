@@ -45,3 +45,8 @@ You can customize how the animation plays by populating the following optional p
 
 *NOTE: you must populate either durationMilliseconds or framesPerSecond but not both*
 
+### Stopping the Current Animation
+You can stop the currently playing animation at any time by calling the StopCurrentAnimation() method. You can also interrupt an animation with a new one by calling Play() while an animation is already in progress.
+
+### Reversing the Current Animation
+You can cause the currently playing animation to go back to play in reverse starting with the frame it's currently on by calling ReverseCurrentAnimation(). This might be useful if a player character is changing positions (like from standing to crouching) and before the transition animation is complete, the player decides to change to the previous position.
