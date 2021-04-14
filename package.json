@@ -1,0 +1,14 @@
+{
+    "name": "Svaerth.EZAnimator",
+    "version": "1.0",
+    "displayName": "EZAnimator",
+    "description": "A library to easily play sprite animations",
+   "keywords": [
+      "2D Animation",
+      "Sprite Animation"
+    ],
+    "author": {
+      "name": "Svaerth",
+      "url": "https://github.com/Svaerth/EZAnimator"
+    }
+  }
