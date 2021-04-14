@@ -10,7 +10,7 @@ You can find more detailed instructions [here](https://docs.unity3d.com/Manual/u
 ### Playing a list of sprites
 1. Add the EZAnimator component to the object you wish to animate
 2. Procure a list of Sprite objects that you wish to make up the animation
-3. Use one of the overloads for the Play or PlayCoroutine methods.
+3. Use one of the overloads for the `Play()` or `PlayCoroutine()` methods.
 
 Example:
 ```
@@ -35,7 +35,7 @@ IEnumerator ChargeAndShoot()
 ```
 
 ### Customizing Animation Properties
-You can customize how the animation plays by populating the following optional parameters in the Play method:
+You can customize how the animation plays by populating the following optional parameters in the `Play()` method:
 1. durationMilliseconds - how long (in milliseconds) it will take to play the whole animation.
 2. framesPerSecond - the speed of the animation measured in frames per seconds 
 3. looping - whether or not the animation should loop
@@ -46,7 +46,7 @@ You can customize how the animation plays by populating the following optional p
 *NOTE: you must populate either durationMilliseconds or framesPerSecond but not both*
 
 ### Stopping the Current Animation
-You can stop the currently playing animation at any time by calling the StopCurrentAnimation() method. You can also interrupt an animation with a new one by calling Play() while an animation is already in progress.
+You can stop the currently playing animation at any time by calling the `StopCurrentAnimation()` method. You can also interrupt an animation with a new one by calling `Play()` while an animation is already in progress.
 
 ### Reversing the Current Animation
-You can cause the currently playing animation to go back to play in reverse starting with the frame it's currently on by calling ReverseCurrentAnimation(). This might be useful if a player character is changing positions (like from standing to crouching) and before the transition animation is complete, the player decides to change to the previous position.
+You can cause the currently playing animation to go back to play in reverse starting with the frame it's currently on by calling `ReverseCurrentAnimation()`. This might be useful if a player character is changing positions (like from standing to crouching) and before the transition animation is complete, the player decides to change to the previous position.
