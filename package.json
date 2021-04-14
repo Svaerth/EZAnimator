@@ -1,5 +1,5 @@
 {
-    "name": "Svaerth.EZAnimator",
+    "name": "com.svaerth.ezanimator",
     "version": "1.0",
     "displayName": "EZAnimator",
     "description": "A library to easily play sprite animations",
